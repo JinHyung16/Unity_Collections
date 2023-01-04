@@ -2,7 +2,7 @@
 -unity에서 android vibration관련 설정에 필요한 파일이다  
 
 ## Usage
--Android Vibration Unity 경로를 검색해 해당 경로에 AdroidManifest.xml 파일을 넣는다.  
+-해당 프로젝트 폴더의 Asset\Plugins\Android에 넣는다.    
 -Vibration.cs를 사용한다.  
 
 ## Notice
