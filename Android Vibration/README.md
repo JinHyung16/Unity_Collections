@@ -6,6 +6,7 @@
 -Vibration.cs를 사용한다.  
 
 ## Notice
--Unity 2021버전은 IOS와 Android의 Vibration이 통합되었다.  
--또한 파일명이 UnityManifest.xml로 바뀌었으니 경로에 들어가서 찾아보자  
--경로: C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Data\PlaybackEngines\AndroidPlayer\Apk  
+- AndroidManifest.xml 추출하는 방법 (2021 3.14f1 버전)  
+1. 해당 프로젝트의 Project Settings → Player → Android → Publishing Settings에 가서 Build 부분에 Custom Main Manifest를 활성화 한다.  
+2. Android로 build target을 바뀐 뒤, build한다. (빌드 경로 상관 없음)  
+3. 빌드 후 프로젝트 Assets\Plugins\Android 폴더 내 AndroidManifest.xml이 생성되는거 확인  
